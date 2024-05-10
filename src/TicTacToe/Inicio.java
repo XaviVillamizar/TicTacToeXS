@@ -196,7 +196,7 @@ public class Inicio extends javax.swing.JFrame {
     }else if(rbt5x5.isSelected()){
         new tablero5x5(nombre1, nombre2, rbt3x3, rbt4x4, rbt5x5).setVisible(true);
     }
-
+this.dispose();
     }//GEN-LAST:event_btn_iniciarActionPerformed
 
     private void nameJugador1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_nameJugador1FocusGained
